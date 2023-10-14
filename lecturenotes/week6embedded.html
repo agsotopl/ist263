@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 5 Embedded CSS</title>
+    <style>
+        h1 {color:indianred;}
+        /* Body selects everything */
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: bisque;
+        }
+        /* in em 2 is twice default size */
+        p, h1, a {
+            font-size: 1.25em;
+            font-weight: bolder;
+            background-color: burlywood;
+        }
+        p a {text-decoration: none;}
+        #secondpara {color: coral;}
+        .yellow {color: yellow;}
+
+    </style>
+</head>
+<body>
+    <h1 class="yellow"> CSS </h1>
+    <a class="yellow" href="https://www.amazon.com"> Amazon </a>
+    <p><a href="https://www.ebay.com">Ebay</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat </p>
+    <!-- each value for id must be unique-->
+    <p id="secondpara"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat </p>
+
+</body>
+</html>
