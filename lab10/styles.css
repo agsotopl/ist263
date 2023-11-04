@@ -1,0 +1,29 @@
+p, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+    background-color: #f1efef;
+}
+h1 {
+    color: #001524;
+    background-color: #d0d4ca;
+}
+h3, ol {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #191717;
+    background-color: #b9b4c7;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a2678a;
+}
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #272829;
+}
+nav a:hover {
+    background-color: #f5f5f5;
+}
