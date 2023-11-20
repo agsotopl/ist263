@@ -1,0 +1,76 @@
+body {
+    background-color: #c5c5c5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+nav a {
+    flex: 1;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #000000;
+}
+h2, h3 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+header {
+   text-align: center;
+
+}
+.mainpieces, .newarrivals, .upcoming {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    flex: 1;
+    margin: auto;
+}
+div label {
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+footer a {
+    flex: 1;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #000000;
+    height: 50px;
+
+}
+img {
+    max-width: 90%;
+}
+
+@media only screen and (max-width:799px) {
+    nav {
+        display: none;
+    }
+}
+@media only screen and (min-width:800px) {
+    nav {
+        display: content;
+    }
+}
+
+.newarrivals label, .mainpieces label, .upcoming label {
+    margin-top: 10px;
+}
