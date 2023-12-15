@@ -1,0 +1,125 @@
+body {
+    background-color: #c5c5c5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+nav a {
+    flex: 1;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #000000;
+}
+h2, h3 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+header {
+   text-align: center;
+
+}
+.mainpieces, .newarrivals, .upcoming {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    flex: 1;
+    margin: auto;
+}
+div label {
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+footer a, footer p {
+    flex: 1;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #000000;
+    height: 50px;
+
+}
+footer {
+    background-color: #000000;
+    text-decoration-color: #ffffff;
+}
+img {
+    max-width: 90%;
+}
+
+@media only screen and (max-width:799px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.newarrivals label, .mainpieces label, .upcoming label {
+    margin-top: 10px;
+}
+div {
+    border: 50px;
+    border-color: #696969;
+}
+h2 {
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 20px;
+    border-color: #696969;
+}
+
+div {
+    text-align: center;
+}
+nav form {
+    background-color: #000000;
+    color:#ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#hamicon {
+    width: 40px;
+}
+#hamicon, #close {
+    cursor: pointer;
+}
+.firstrow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+@media only screen and (min-width: 800px) {
+    #hamicon, #close {display: none;}
+}
+@media only screen and (max-width: 799px) {
+    a {display: block; 
+        border: 1px solid #444444;}
+    #navicons {display: none;}
+}
+#close {
+    display: none;
+}
