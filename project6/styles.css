@@ -70,3 +70,11 @@ img {
 .newarrivals label, .mainpieces label, .upcoming label {
     margin-top: 10px;
 }
+
+div {
+    border: 50px;
+    border-color: #696969;
+}
+h2 {
+    text-align: center;
+}
