@@ -30,11 +30,12 @@
         <p id="close" onclick="hideNav();">X</p>
     </div>
     <nav id="navicons">
-        <a href="homepage.html">Home</a> 
-        <a href="contentpage.html">Shop Now</a> 
+        <a alt="homepage" href="homepage.html">Home</a> 
+        <a alt="contentpage" href="contentpage.html">Shop Now</a> 
         <a href="aboutpage.html">About & Contact</a>
         <form action="/search" method="get">
-            <input type="search" name="q" placeholder="Search...">
+            <label for="search">Search</label>
+            <input id="search" type="search" name="q" placeholder="Search...">
             <button type="submit">Search</button>
         </form>
     </nav>
